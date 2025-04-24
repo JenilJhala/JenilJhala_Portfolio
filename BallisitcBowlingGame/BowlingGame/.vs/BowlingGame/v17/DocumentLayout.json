@@ -1,0 +1,242 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\levelonescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\levelonescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\pins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:pins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\services\\collisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:services\\collisionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\menuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\leveltwoscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\leveltwoscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\aboutscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\aboutscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jenil\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\scorescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\scorescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\helpscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\helpscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|e:\\1conestoga\\sem 3\\game programming\\game prog\\ballisitcbowlinggame\\bowlinggame\\screens\\iscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53CF89A-B815-4754-AC0D-D9A65914E6FE}|BowlingGame.csproj|solutionrelative:screens\\iscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ball.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Ball.cs",
+              "RelativeDocumentMoniker": "Ball.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Ball.cs",
+              "RelativeToolTip": "Ball.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:49:40.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Score.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Score.cs",
+              "RelativeDocumentMoniker": "Score.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Score.cs",
+              "RelativeToolTip": "Score.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:49:35.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:49:34.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pins.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Pins.cs",
+              "RelativeDocumentMoniker": "Pins.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Pins.cs",
+              "RelativeToolTip": "Pins.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:49:23.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollisionHandler.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Services\\CollisionHandler.cs",
+              "RelativeDocumentMoniker": "Services\\CollisionHandler.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Services\\CollisionHandler.cs",
+              "RelativeToolTip": "Services\\CollisionHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwDwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T19:36:26.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScoreScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\ScoreScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\ScoreScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\ScoreScreen.cs",
+              "RelativeToolTip": "Screens\\ScoreScreen.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAwwEwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:43:12.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\IScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\IScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\IScreen.cs",
+              "RelativeToolTip": "Screens\\IScreen.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:43:03.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelOneScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\LevelOneScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\LevelOneScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\LevelOneScreen.cs",
+              "RelativeToolTip": "Screens\\LevelOneScreen.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAwO0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:56.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LevelTwoScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\LevelTwoScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\LevelTwoScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\LevelTwoScreen.cs",
+              "RelativeToolTip": "Screens\\LevelTwoScreen.cs",
+              "ViewState": "AgIAAAABAAAAAAAAAAAwwLIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:47.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\MenuScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MenuScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\MenuScreen.cs",
+              "RelativeToolTip": "Screens\\MenuScreen.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:46.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MonoGame.Content.Builder.Task.targets",
+              "DocumentMoniker": "C:\\Users\\jenil\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ToolTip": "C:\\Users\\jenil\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\build\\MonoGame.Content.Builder.Task.targets",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAQwI0AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-11T01:42:36.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HelpScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\HelpScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\HelpScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\HelpScreen.cs",
+              "RelativeToolTip": "Screens\\HelpScreen.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:17.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AboutScreen.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\AboutScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\AboutScreen.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Screens\\AboutScreen.cs",
+              "RelativeToolTip": "Screens\\AboutScreen.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T01:42:10.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T21:14:49.433Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

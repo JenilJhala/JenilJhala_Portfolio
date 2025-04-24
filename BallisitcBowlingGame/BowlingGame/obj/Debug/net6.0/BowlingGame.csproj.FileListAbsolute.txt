@@ -1,0 +1,227 @@
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\BowlingGame.exe
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\BowlingGame.deps.json
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\BowlingGame.runtimeconfig.json
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.AssemblyReference.cache
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfo.cs
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingG.5EB1D9E3.Up2Date
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\refint\BowlingGame.dll
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\BowlingGame.genruntimeconfig.cache
+C:\Users\jenil\source\repos\BowlingGame\obj\Debug\net6.0\ref\BowlingGame.dll
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingLane.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingBall.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingPin.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Fonts\LevelFont.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Fonts\MenuFont.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Fonts\ScoreFont.xnb
+C:\Users\jenil\source\repos\BowlingGame\bin\Debug\net6.0\Content\Images\bowlBackground.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Fonts\LevelFont.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Fonts\MenuFont.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Fonts\ScoreFont.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\bowlBackground.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingBall.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingLane.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingPin.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\BowlingGame.exe
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\BowlingGame.deps.json
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\BowlingGame.runtimeconfig.json
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.AssemblyReference.cache
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfo.cs
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingG.5EB1D9E3.Up2Date
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\refint\BowlingGame.dll
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\BowlingGame.genruntimeconfig.cache
+C:\Users\jenil\Desktop\BowlingGame\obj\Debug\net6.0\ref\BowlingGame.dll
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\butttonsMenu.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\ExitButtons.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\HelpBGImage.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\HelpButtons.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\levelBG.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBG.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBoard.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBox.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\windEffect.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingTitle.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Fonts\AboutFont.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\Images\ContentAbout.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\levelComplete.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\backgroundSound.xnb
+C:\Users\jenil\Desktop\BowlingGame\bin\Debug\net6.0\Content\aboutSound.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\aboutSound.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\backgroundSound.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Fonts\AboutFont.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Fonts\LevelFont.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Fonts\MenuFont.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Fonts\ScoreFont.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\bowlBackground.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingBall.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingLane.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingPin.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingTitle.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\butttonsMenu.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\ContentAbout.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\ExitButtons.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\HelpBGImage.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\HelpButtons.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\levelBG.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBG.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBoard.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBox.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\Images\windEffect.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\levelComplete.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\BowlingGame.exe
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\BowlingGame.deps.json
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\BowlingGame.runtimeconfig.json
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\BowlingGame.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\BowlingGame.pdb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.AssemblyReference.cache
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfo.cs
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingG.5EB1D9E3.Up2Date
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\refint\BowlingGame.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.pdb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\BowlingGame.genruntimeconfig.cache
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\obj\Debug\net6.0\ref\BowlingGame.dll
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\rollingBall.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\strikePin.xnb
+C:\Users\shrey\Downloads\FinalBowling\BowlingGame\bin\Debug\net6.0\Content\backgroundGame.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\aboutSound.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\backgroundGame.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\backgroundSound.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\AboutFont.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\LevelFont.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\MenuFont.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\ScoreFont.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlBackground.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingBall.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingLane.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingPin.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingTitle.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\butttonsMenu.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ContentAbout.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ExitButtons.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\HelpBGImage.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\HelpButtons.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\levelBG.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBG.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBoard.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBox.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\levelComplete.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\rollingBall.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\strikePin.xnb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.exe
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.deps.json
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.runtimeconfig.json
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\MonoGame.Framework.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.AssemblyReference.cache
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfoInputs.cache
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfo.cs
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.CoreCompileInputs.cache
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingG.5EB1D9E3.Up2Date
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\refint\BowlingGame.dll
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.pdb
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.genruntimeconfig.cache
+C:\Users\jenil\Desktop\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\ref\BowlingGame.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\aboutSound.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\backgroundGame.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\backgroundSound.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\AboutFont.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\LevelFont.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\MenuFont.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Fonts\ScoreFont.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlBackground.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingBall.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingLane.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingPin.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\bowlingTitle.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\butttonsMenu.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ContentAbout.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ExitButtons.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\HelpBGImage.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\HelpButtons.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\levelBG.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBG.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBoard.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\Images\ScoreBox.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\levelComplete.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\rollingBall.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\Content\strikePin.xnb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.exe
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.deps.json
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.runtimeconfig.json
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\BowlingGame.pdb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\MonoGame.Framework.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libSDL2-2.0.so.0
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\linux-x64\native\libopenal.so.1
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libSDL2.dylib
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\osx\native\libopenal.1.dylib
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\SDL2.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x64\native\soft_oal.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\SDL2.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\bin\Debug\net6.0\runtimes\win-x86\native\soft_oal.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.AssemblyReference.cache
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.GeneratedMSBuildEditorConfig.editorconfig
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfoInputs.cache
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.AssemblyInfo.cs
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.csproj.CoreCompileInputs.cache
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingG.5EB1D9E3.Up2Date
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\refint\BowlingGame.dll
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.pdb
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\BowlingGame.genruntimeconfig.cache
+E:\1Conestoga\Sem 3\Game Programming\Game Prog\BallisitcBowlingGame\BowlingGame\obj\Debug\net6.0\ref\BowlingGame.dll

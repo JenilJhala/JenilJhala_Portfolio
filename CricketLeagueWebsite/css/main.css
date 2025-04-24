@@ -1,0 +1,194 @@
+body{
+    margin:auto ;
+    background-color: whitesmoke;
+}
+header{
+    margin: 10px 0px 10px 10px;
+    display: flex;
+    gap: 20px;
+}
+.img1{
+    width: 150px;
+    height: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.h1-1{
+    font-family: Trebuchet MS;
+    font-size: xx-large;
+    color: rgb(12, 64, 119);
+    justify-self: center;
+    align-self: center;
+}
+.nav1 a:hover{
+    color: rgb(255, 0, 0);
+}
+.nav1 a:focus{
+    background-color: rgb(192, 140, 245);
+    padding: 5px;
+    border-radius: 20px;
+    color: #bddcfa;
+}
+.nav1{
+    text-align: center;
+    background-color: rgb(0, 66, 142);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px; ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav1 ul, .nav1 ul li ul li ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav1 ul li{
+    display: inline-block; 
+    position: relative; 
+}
+
+.nav1 ul li ul {
+	width: 100px;
+	position: absolute; 
+	z-index: 999; 
+	text-align: center;
+	background-color:  rgb(0, 66, 142);
+    border: 2px solid rgb(141, 140, 140);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(1, 60, 128);
+    top: 20px;
+}
+
+.nav1 ul li ul li a{
+    color: white;
+    padding: 10px;
+    display: block; 
+}
+
+.nav1 ul li ul li:hover a:hover{
+    color:  rgb(0, 66, 142);
+    background-color: #bddcfa;
+    border-radius: 10px;
+}
+
+.nav1 ul li ul {
+    display: none; 
+}
+
+.nav1 ul li:hover ul{
+    display: block; 
+}
+
+.nav1 ul li ul li ul {
+    display: inline-block; 
+    position: relative; 
+}
+.nav1 ul li ul li ul{
+	width: 80px;
+	position: absolute; 
+	z-index: 999; 
+	text-align: center;
+	background-color:  rgb(0, 66, 142);
+    border: 2px solid rgb(141, 140, 140);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(1, 60, 128);
+    top: 0px;
+    left: 70px;
+}
+
+.nav1 ul li ul li ul li:hover a:hover{
+    color:  rgb(0, 66, 142);
+    background-color: #bddcfa;
+    border-radius: 10px;
+}
+
+.nav1 ul li ul li ul li a{
+    color: white;
+    padding: 10px;
+    display: block; 
+} 
+.nav1 ul li:hover ul li ul{
+    display: none; 
+}
+
+.nav1 ul li ul li:hover ul{
+    display: block; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.dmain{
+    display: flex;
+    flex-direction: row;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin: 0px 10px;
+    background-color: rgb(0, 54, 162);
+    width: 10%;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.nav2 figure img{
+    width: 90%;
+    border-radius: 10px;
+}
+.nav2 a:hover img{
+    width: 100%;
+    transition: 500ms ease-in;
+}
+figure{
+    text-align: center;
+    margin: 10px;
+}
+.nav2 figure figcaption{
+    background-color: rgba(202, 194, 194, 0.3);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    top: 90px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+img{
+    border: 2px solid black;
+}
+h2{
+    margin-top: 85px;
+    width: auto;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: rgb(234, 255, 254);
+}
+main{
+    margin-right: 10px;
+    width: 70%;
+    background-color: #bddcfa;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside{
+    margin-right: 10px;
+    width: 20%;
+    background-color: #bddcfa;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(0, 66, 142);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    font-family: calibri;
+    margin: 10px;
+    border-radius: 10px;
+}

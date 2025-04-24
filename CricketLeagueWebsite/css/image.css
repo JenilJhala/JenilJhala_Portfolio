@@ -1,0 +1,42 @@
+main figure img{
+    width: 450px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: center;
+    justify-content: center;
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main figure .tr{
+    clip-path: polygon(11% 16%, 24% 15%, 24% 0, 77% 0, 77% 15%, 88% 15%, 89% 85%, 80% 85%, 80% 100%, 22% 100%, 22% 85%, 12% 84%);
+}
+main figure figcaption{
+    font-size: larger;
+    font-family: calibri;
+    background-color: rgb(36, 143, 213);
+    color: aliceblue;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+}
+aside{
+    padding: 10px;
+    text-align:justify;
+}
+h1{
+    text-align: center;
+    font-family: calibri;
+    font-size: x-large;
+    color: royalblue;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(2, 2, 100);
+}

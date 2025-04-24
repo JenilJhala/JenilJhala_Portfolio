@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/aboutSound.wav</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/backgroundGame.wav</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/backgroundSound.wav</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Fonts/AboutFont.spritefont</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Fonts/LevelFont.spritefont</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Fonts/MenuFont.spritefont</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Fonts/ScoreFont.spritefont</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/bowlBackground.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/bowlingBall.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/bowlingLane.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/bowlingPin.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/bowlingTitle.jpg</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/butttonsMenu.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/ContentAbout.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/ExitButtons.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/HelpBGImage.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/HelpButtons.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/levelBG.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/ScoreBG.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/ScoreBoard.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Images/ScoreBox.png</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/levelComplete.wav</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/rollingBall.wav</File>
+    <File>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/strikePin.wav</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

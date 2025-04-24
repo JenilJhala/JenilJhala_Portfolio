@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RollForward>Major</RollForward>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>bowling_icon_124458 (1).ico</ApplicationIcon>
+    <Title>Bowling Game</Title>
+    <Authors>Jenil Shreya</Authors>
+    <Product>Bowling Game</Product>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Content\Sounds\**" />
+    <Compile Remove="Content\Sound\**" />
+    <EmbeddedResource Remove="Content\Sounds\**" />
+    <EmbeddedResource Remove="Content\Sound\**" />
+    <None Remove="Content\Sounds\**" />
+    <None Remove="Content\Sound\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Content\bowlingBallSound.wav" />
+    <None Remove="Content\bowlingPin.png" />
+    <None Remove="Content\FinalBowlingLane.png" />
+    <None Remove="Content\Images\FinalBowlingLane.png" />
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bowling_icon_124458 (1).ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.1.303" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
+    <Message Text="Restoring dotnet tools" Importance="High" />
+    <Exec Command="dotnet tool restore" />
+  </Target>
+</Project>

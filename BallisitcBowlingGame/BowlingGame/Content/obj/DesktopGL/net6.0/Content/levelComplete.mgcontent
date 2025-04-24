@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/levelComplete.wav</SourceFile>
+  <SourceTime>2024-12-09T23:15:27-05:00</SourceTime>
+  <DestFile>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/bin/DesktopGL/Content/levelComplete.xnb</DestFile>
+  <DestTime>2025-04-23T21:25:00.385519-04:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2022-07-26T07:44:56-04:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2022-07-26T07:44:56-04:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

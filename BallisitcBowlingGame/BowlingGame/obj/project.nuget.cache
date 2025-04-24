@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oiTLZNkSLIw=",
+  "success": true,
+  "projectFilePath": "E:\\1Conestoga\\Sem 3\\Game Programming\\Game Prog\\BallisitcBowlingGame\\BowlingGame\\BowlingGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jenil\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\jenil\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

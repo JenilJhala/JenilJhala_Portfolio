@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/Fonts/AboutFont.spritefont</SourceFile>
+  <SourceTime>2024-12-09T23:15:31-05:00</SourceTime>
+  <DestFile>E:/1Conestoga/Sem 3/Game Programming/Game Prog/BallisitcBowlingGame/BowlingGame/Content/bin/DesktopGL/Content/Fonts/AboutFont.xnb</DestFile>
+  <DestTime>2025-04-23T21:24:41.2528695-04:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2022-07-26T07:44:56-04:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2022-07-26T07:44:56-04:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

@@ -1,0 +1,163 @@
+<!-- Jenil Jhala, Student no: 8980060-->
+<html>
+<head>
+    <title>Feedback</title>
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-ico" alt="IPL">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/feedback.css">
+</head>
+<body>
+    <header>
+        <img class="img1" src="images/IPL-Logo.jpg" alt="Logo">   <!-- Image reference link: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.india.com%2Fsports%2Fcricket-ipl-2020-heres-the-new-logo-featuring-title-sponsor-dream11-after-vivo-exit-4117776%2F&psig=AOvVaw2vIKn8PN3q4aOMwbTUok17&ust=1712267936236000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjt-aSFp4UDFQAAAAAdAAAAABAR-->
+
+        <h1 class="h1-1">Indian Premier League</h1>
+    </header>
+    <nav class="nav1">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="image.html">Image</a>
+                <ul>
+                    <li class="liteams">
+                        <a href="image.html">Teams</a>
+                        <ul class="ul3">
+                            <li><a href="image.html">CSK</a></li>
+                            <li><a href="image.html">MI</a></li>
+                            <li><a href="image.html">RCB</a></li>
+                            <li><a href="image.html">RR</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="image.html">Previous Winner</a></li>
+                    <li><a href="image.html">Trophy</a></li>
+                </ul>
+            </li>
+            <li><a href="table.html">Teams Info Table</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="dmain">
+        <nav class="nav2">
+            <a class="a2" href="index.html">
+                <figure>            <!-- Reference link: https://icons8.com/icons/set/home-->
+                    <img src="images/nav logo/home.jpg" alt="Home">
+                    <figcaption>Home</figcaption>
+                </figure>
+                
+            </a>
+            <a class="a2" href="image.html">
+                <figure>            <!-- Reference link: https://icons8.com/icons/set/image-->
+                    <img src="images/nav logo/image.jpg" alt="Images">
+                    <figcaption>Images</figcaption>
+                </figure>
+                
+            </a>
+            </a>
+            <a class="a2" href="table.html"> 
+                <figure>            <!-- Reference link: https://icons8.com/icons/set/table-->
+                    <img src="images/nav logo/icons8-table-64.png" alt="Point Table">
+                    <figcaption>Teams Info Table</figcaption>
+                </figure>
+                
+            </a>
+            <a class="a2" href="feedback.html">
+                <figure>            <!-- Reference link: https://icons8.com/icons/set/feedback-->
+                    <img src="images/nav logo/icons8-feedback-50.png" alt="Feedback">
+                    <figcaption>Feedback</figcaption>
+                </figure>
+            </a>
+        </nav>  
+        <main>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Details</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" tabindex="1" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" tabindex="2" required>
+                    </div>
+                    <div>
+                       <label for="dropdown">Select your favourite teams:</label>
+                        <select id="dropdown" name="" size="3" tabindex="3" multiple>
+                        <optgroup label="Teams">
+                            <option value="teams">CSK</option>
+                            <option value="teams">MI</option>
+                            <option value="teams">RCB</option>
+                            <option value="teams">RR</option>
+                            <option value="teams">GT</option>
+                            <option value="teams">KKR</option>
+                            <option value="teams">DC</option>
+                            <option value="teams">SRH</option>
+                            <option value="teams">LSG</option>
+                        </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="reason">Reason for Contact:</label>
+                        <select id="reason" name="reason" tabindex="3" required>
+                            <optgroup label="General Inquiry">
+                                <option value="feedback">Feedback</option>
+                                <option value="question">Question</option>
+                            </optgroup>
+                            <optgroup label="Technical Support">
+                                <option value="login">Login Issues</option>
+                                <option value="website">Website Error</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div>
+                       <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="7" cols="50" tabindex="5"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" tabindex="6">
+                        <input type="reset" value="Reset" tabindex="7">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <aside>
+            <h3>Feedback Form</h3>
+            <form>
+            <fieldset>
+                <legend>My Website is/was</legend>
+                <div>
+                    <input type="checkbox" id="fun" name="" tabindex="8">
+                    <label for="fun">Fun to visit</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="well-designed" name="" tabindex="9">
+                    <label for="well-designed">Well Designed</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="good-colors" name="" tabindex="10">
+                    <label for="good-colors">Uses good colours</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Will you Visit my Site Again? </legend>
+                <div class="radio-columns">
+                    <div>
+                        <input type="radio" id="yes" name="again" tabindex="11">
+                        <label>Yes</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="no" name="again" tabindex="12">
+                        <label>No</label>
+                        
+                    </div>
+                    
+                </div>
+            </fieldset>
+            <input type="submit" name="submit" tabindex="13">
+        </form>
+        </aside>
+    </div>
+    <footer>
+        <h3>&copy; Jenil Jhala, Email: jjhala0060@conestogac.on.ca</h3>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1{
+    color: rgb(0, 20, 82);
+    font-family: calibri;
+}
+p{
+    font-family: Arial;
+    font-size: large;
+}
+main figure img{
+    width: 800px;
+    height: 500px;
+}
+aside figure figcaption{
+    background-color: blueviolet;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50px;
+}
+aside{
+    padding: 10px;
+}
+aside ul li{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: calibri;
+}
