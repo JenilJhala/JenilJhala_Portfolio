@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\service\\hrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\service\\hrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\controllers\\customernotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\controllers\\customernotificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\views\\hrmanagement\\promoteemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\views\\hrmanagement\\promoteemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\views\\hrmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\views\\hrmanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\controllers\\financecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\models\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\models\\appointmentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\migrations\\20250319202239_payrollupdatecomission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\migrations\\20250319202239_payrollupdatecomission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\service\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\service\\payrollservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\views\\finance\\payroll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\views\\finance\\payroll.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\models\\payrollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\models\\payrollviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\entities\\payrollrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\entities\\payrollrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\views\\finance\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\views\\finance\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|e:\\1conestoga\\sem 4\\application project\\final project\\finalcopy\\smallusedcars_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5A9ABB0-5671-4CDD-9B26-3D185842D863}|SmallUsedCars_WebApp\\SmallUsedCars_WebApp.csproj|solutionrelative:smallusedcars_webapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HRService.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Service\\HRService.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Service\\HRService.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Service\\HRService.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Service\\HRService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwHEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:01:44.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\HRManagement\\Index.cshtml",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Views\\HRManagement\\Index.cshtml",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\HRManagement\\Index.cshtml",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Views\\HRManagement\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:20:05.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PromoteEmployee.cshtml",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\HRManagement\\PromoteEmployee.cshtml",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Views\\HRManagement\\PromoteEmployee.cshtml",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\HRManagement\\PromoteEmployee.cshtml",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Views\\HRManagement\\PromoteEmployee.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-28T00:19:16.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerNotificationController.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\CustomerNotificationController.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Controllers\\CustomerNotificationController.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\CustomerNotificationController.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Controllers\\CustomerNotificationController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:30:40.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Controllers\\CustomerController.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:30:15.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Controllers\\AppointmentController.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:30:03.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:29:47.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppointmentViewModel.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Models\\AppointmentViewModel.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Models\\AppointmentViewModel.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Models\\AppointmentViewModel.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Models\\AppointmentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:28:02.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinanceController.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\FinanceController.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Controllers\\FinanceController.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Controllers\\FinanceController.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Controllers\\FinanceController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:37:17.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250319202239_PayrollUpdateComission.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Migrations\\20250319202239_PayrollUpdateComission.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Migrations\\20250319202239_PayrollUpdateComission.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Migrations\\20250319202239_PayrollUpdateComission.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Migrations\\20250319202239_PayrollUpdateComission.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T20:22:40.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PayrollViewModel.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Models\\PayrollViewModel.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Models\\PayrollViewModel.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Models\\PayrollViewModel.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Models\\PayrollViewModel.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA7wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:55:07.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PayrollService.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Service\\PayrollService.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Service\\PayrollService.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Service\\PayrollService.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Service\\PayrollService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAswEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:54:55.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PayrollRecord.cs",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Entities\\PayrollRecord.cs",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Entities\\PayrollRecord.cs",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Entities\\PayrollRecord.cs",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Entities\\PayrollRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:53:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Payroll.cshtml",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\Finance\\Payroll.cshtml",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Views\\Finance\\Payroll.cshtml",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\Finance\\Payroll.cshtml",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Views\\Finance\\Payroll.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T17:36:47.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\Finance\\List.cshtml",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\Views\\Finance\\List.cshtml",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\Views\\Finance\\List.cshtml",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\Views\\Finance\\List.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-19T17:36:42.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "SmallUsedCars_WebApp\\appsettings.json",
+              "ToolTip": "E:\\1Conestoga\\Sem 4\\Application Project\\Final Project\\FinalCopy\\SmallUsedCars_WebApp\\appsettings.json",
+              "RelativeToolTip": "SmallUsedCars_WebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-19T17:31:40.604Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

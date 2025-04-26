@@ -1,0 +1,96 @@
+﻿@model List<SmallUsedCars_WebApp.Models.VehicleInventoryViewModel>
+
+<h2 class="d-flex justify-content-between align-items-center">
+    Inventory
+    <a asp-controller="Inventory" asp-action="List" asp-route-showAddVehicleForm="true" class="btn btn-primary">
+        Dealership Purchase
+    </a>
+</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Please fix the following errors:</strong>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<style>
+    .table td, .table th {
+        vertical-align: middle !important;
+        text-align: center;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px; /* 버튼 간 여백 */
+    }
+</style>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Manufacturer</th>
+            <th>Plate Number</th>
+            <th>Mileage</th>
+            <th>Status</th>
+            <th>Transaction Type</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var vehicle in Model)
+        {
+            <tr>
+                <td>@vehicle.Model</td>
+                <td>@vehicle.Manufacturer</td>
+                <td>@vehicle.PlateNumber</td>
+                <td>@vehicle.Mileage</td>
+                <td>@vehicle.Status</td>
+                <td>
+                    @if (vehicle.TransactionType == "Pending")
+                    {
+                        <span class="text-danger">@vehicle.TransactionType</span>
+                    }
+                </td>
+
+                <td>
+                    <div class="btn-container">
+                        @if (vehicle.TransactionType == "Pending")
+                        {
+                            <a asp-controller="VehicleTransaction" asp-action="EnterTransactionInfo"
+                               asp-route-vehicleId="@vehicle.VehicleId" class="btn btn-warning btn-sm">
+                                Enter Transaction Info
+                            </a>
+                        }
+                        else if (vehicle.Status == "Available")
+                        {
+                            <a asp-controller="VehicleTransaction" asp-action="CustomerBuyVehicle"
+                               asp-route-vehicleId="@vehicle.VehicleId" class="btn btn-success btn-sm">
+                                Customer Purchase
+                            </a>
+                        }
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,107 @@
+﻿@model SmallUsedCars_WebApp.Models.transactionInfoViewModel
+
+@{
+    ViewData["Title"] = "Sell Vehicle to Customer";
+}
+
+<h2>Sell Vehicle to Customer</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Please fix the following errors:</strong>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<!-- 차량 정보 (수정 불가, 컨트롤러로 전송되지 않음) -->
+<div class="card mb-3">
+    <div class="card-header">Vehicle Information</div>
+    <div class="card-body">
+        <div class="form-group">
+            <label>VIN</label>
+            <input class="form-control" type="text" value="@ViewData["Vin"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Plate Number</label>
+            <input class="form-control" type="text" value="@ViewData["PlateNumber"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Mileage</label>
+            <input class="form-control" type="text" value="@ViewData["Mileage"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Manufacturer</label>
+            <input class="form-control" type="text" value="@ViewData["Manufacturer"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Model</label>
+            <input class="form-control" type="text" value="@ViewData["Model"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Year</label>
+            <input class="form-control" type="text" value="@ViewData["Year"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Type</label>
+            <input class="form-control" type="text" value="@ViewData["Type"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Powertrain</label>
+            <input class="form-control" type="text" value="@ViewData["Powertrain"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Status</label>
+            <input class="form-control" type="text" value="@ViewData["Status"]" readonly />
+        </div>
+
+        <div class="form-group">
+            <label>Market Value</label>
+            <input class="form-control" type="text" value="@ViewData["MarketValue"]" readonly />
+        </div>
+    </div>
+</div>
+
+<!-- 거래 정보 입력 폼 -->
+<form asp-action="SellVehicleToDealership" method="post">
+    <!-- VehicleId를 숨겨진 필드로 추가 (폼에서 전송됨) -->
+    <input type="hidden" asp-for="VehicleId" />
+
+
+
+    <div class="form-group">
+        <label>Transaction Date</label>
+        <input asp-for="TransactionDate" class="form-control" type="date" />
+    </div>
+
+    <div class="form-group">
+        <label>Purchase Price</label>
+        <input asp-for="PurchasePrice" class="form-control" type="number" step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label>Sales Price</label>
+        <input asp-for="SalesPrice" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="SalesPrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Trade-In Value</label>
+        <input asp-for="TradeInValue" class="form-control" type="number" step="0.01" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Complete Sale</button>
+</form>

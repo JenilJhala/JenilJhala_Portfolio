@@ -1,0 +1,33 @@
+﻿@model SmallUsedCars_WebApp.Entities.Appointment
+
+<h2>Delete Appointment</h2>
+
+<p>Are you sure you want to delete this appointment?</p>
+<ul>
+    <!--  Appointment 엔터티에 Customer 네비게이션 속성이 포함되어 있으므로, 고객의 성(LastName)과 이름(FirstName)을 Delete 뷰에서 출력하려면 Model.Customer에서 직접 가져오면 됩니다. 하지만 Customer 네비게이션 속성이 null일 가능성이 있으므로 이를 고려해서 null이 될 수 있는 경우를 대비해 null 체크를 수행, Model.Customer가 null이면 "Unknown"을 출력하고 아니라면, "성, 이름" 형식으로 출력  -->
+    <li>Customer: @(Model.Customer != null ? Model.Customer.LastName + ", " + Model.Customer.FirstName : "Unknown")</li>
+    <li>Date: @Model.AppointmentDate.ToShortDateString()</li>
+    <li>Type: @Model.AppointmentType</li>
+    <li>Description: @Model.Description</li>
+</ul>
+
+<!-- ModelState 오류 메시지 표시 -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Please fix the following errors:</strong>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+
+<form asp-action="DeleteConfirmed" asp-controller="Appointment" method="post">
+    <input type="hidden" name="id" value="@Model.AppointmentId" /> <!--id를 명확하게 해주지 않으면 전달받은 id를 찾지못해서 404에러-->
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="List" class="btn btn-secondary">Cancel</a>
+</form>

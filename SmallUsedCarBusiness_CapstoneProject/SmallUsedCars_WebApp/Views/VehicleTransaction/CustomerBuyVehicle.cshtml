@@ -1,0 +1,35 @@
+﻿@model SmallUsedCars_WebApp.Models.transactionInfoViewModel
+
+@{
+    ViewData["Title"] = "Sell Vehicle to Customer";
+}
+
+<h2>Sell Vehicle to Customer</h2>
+
+<form asp-action="CustomerBuyVehicle" method="post">
+    <!-- 차량 식별 정보 -->
+    <input type="hidden" asp-for="VehicleId" />
+    <input type="hidden" asp-for="EmployeeId" />
+
+    <div class="form-group">
+        <label>Transaction Date</label>
+        <input asp-for="TransactionDate" class="form-control" type="date" required />
+    </div>
+
+    <div class="form-group">
+        <label>Purchase Price</label>
+        <input asp-for="PurchasePrice" class="form-control" type="number" step="0.01" required />
+    </div>
+
+    <div class="form-group">
+        <label>Sales Price</label>
+        <input asp-for="SalesPrice" class="form-control" type="number" step="0.01" required />
+    </div>
+
+    <div class="form-group">
+        <label>Trade-In Value</label>
+        <input asp-for="TradeInValue" class="form-control" type="number" step="0.01" required />
+    </div>
+
+    <button type="submit" class="btn btn-success">Complete Sale</button>
+</form>

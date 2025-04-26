@@ -1,0 +1,110 @@
+﻿@model PayrollListViewModel
+
+<h2>Payroll Records</h2>
+
+<form id="payrollForm" method="get">
+    <div class="row">
+        <div class="col-md-3">
+            <label>Start Date</label>
+            <input type="month" name="startDate" value="@Model.StartDate.ToString("yyyy-MM")" class="form-control" />
+        </div>
+        <div class="col-md-3">
+            <label>End Date</label>
+            <input type="month" name="endDate" value="@Model.EndDate.ToString("yyyy-MM")" class="form-control" />
+        </div>
+        <div class="col-md-3">
+            <br />
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+
+    <br />
+
+    <label>Select Employees</label>
+    <div class="form-group">
+        @foreach (var employee in Model.Employees)
+        {
+            <div>
+                <input type="checkbox" name="selectedEmployees" value="@employee.EmployeeId" /> @employee.EmployeeName
+            </div>
+        }
+    </div>
+
+    <br />
+    <button type="submit" formaction="@Url.Action("List")" formmethod="get" class="btn btn-success">View Payroll</button>
+    <button type="submit" formaction="@Url.Action("Create")" formmethod="get" class="btn btn-warning">Calculate Payroll</button>
+</form>
+
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employee</th>
+            <th>Pay Date</th>
+            <th>Base Salary</th>
+            <th>Tax</th>
+            <th>Total Pay</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model.PayrollRecords)
+        {
+            <tr>
+                <td>@record.EmployeeName</td>
+                <td>@record.PayDate.ToString("dd-MMM-yyyy")</td>
+                <td>$@record.BaseSalary.ToString("N2")</td>
+                <td>$@record.Tax.ToString("N2")</td>
+                <td>$@record.TotalPay.ToString("N2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // 오늘 날짜 가져오기
+        // Get today's date
+        let today = new Date();
+
+        // 현재 월보다 한 달 전까지만 선택 가능하도록 설정
+        // Set the max selectable month to the last month
+        let maxMonth = new Date(today.getFullYear(), today.getMonth() - 1, 1); // 지난달까지 선택 가능
+
+        // 선택 가능한 최소 월 (1년 전 같은 달)
+        // Set the min selectable month (same month from the previous year)
+        let minMonth = new Date(today.getFullYear() - 1, today.getMonth(), 1);
+
+        // 날짜 입력 필드 요소 가져오기
+        // Get the date input elements
+        let startDateInput = document.getElementById("startDate");
+        let endDateInput = document.getElementById("endDate");
+
+        // 최소/최대 월 설정 (과거 1년까지 선택 가능)
+        // Set min/max month limits (only past 1 year is selectable)
+        startDateInput.setAttribute("min", minMonth.toISOString().slice(0, 7));
+        startDateInput.setAttribute("max", maxMonth.toISOString().slice(0, 7));
+        endDateInput.setAttribute("min", minMonth.toISOString().slice(0, 7));
+        endDateInput.setAttribute("max", maxMonth.toISOString().slice(0, 7));
+
+        // startDate 변경 시 endDate 자동 조정 (start 선택하면 end도 같은 달 자동 선택)
+        // When startDate changes, update endDate to match if needed
+        startDateInput.addEventListener("change", function () {
+            if (new Date(startDateInput.value) > new Date(endDateInput.value)) {
+                endDateInput.value = startDateInput.value;
+            }
+        });
+
+        // endDate 변경 시 startDate 자동 조정 (end 선택하면 start도 같은 달 자동 선택)
+        // When endDate changes, update startDate to match if needed
+        endDateInput.addEventListener("change", function () {
+            if (new Date(endDateInput.value) < new Date(startDateInput.value)) {
+                startDateInput.value = endDateInput.value;
+            }
+        });
+    });
+</script>
+

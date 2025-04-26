@@ -1,0 +1,108 @@
+﻿@{
+    Layout = null; // This is the master layout
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Car Dealership</title>
+
+    <!-- Bootstrap 5 CSS (CDN) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+    <!-- FontAwesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/css/site.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <!-- Top navbar (full width) -->
+    <nav class="navbar navbar-expand navbar-dark topbar-bg px-3" style="z-index: 2;">
+        <!-- Brand/logo area -->
+        <a class="navbar-brand d-flex align-items-center gap-2" asp-controller="Home" asp-action="Index">
+            <img src="~/lib/logo.png" alt="Car Logo" class="brand-logo" />
+            <span class="fw-bold mb-0">Small Used Car Dealership</span>
+        </a>
+
+        <!-- Right side: greeting or login/register -->
+        <div class="ms-auto d-flex align-items-center">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <span class="text-white me-3">Hello, @User.Identity.Name</span>
+                <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                    <button type="submit" class="btn btn-danger btn-sm">Logout</button>
+                </form>
+            }
+            else
+            {
+                <a class="btn btn-success btn-sm me-2" asp-controller="Account" asp-action="Login">Login</a>
+                <a class="btn btn-primary btn-sm" asp-controller="Account" asp-action="Register">Register</a>
+            }
+        </div>
+    </nav>
+
+    <div class="d-flex" style="position: relative; z-index: 1;">
+        <!-- Sidebar -->
+        <nav class="sidebar d-flex flex-column flex-shrink-0 p-3">
+            <hr class="hr-light" />
+            <ul class="nav nav-pills flex-column mb-auto">
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Home" asp-action="Index">
+                        <i class="fas fa-home me-2"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Inventory" asp-action="List">
+                        <i class="fas fa-warehouse me-2"></i> Inventory
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Appointment" asp-action="List">
+                        <i class="fas fa-calendar-check me-2"></i> Appointment
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="VehicleTransaction" asp-action="Index">
+                        <i class="fas fa-exchange-alt me-2"></i> Transaction
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Maintenance" asp-action="List">
+                        <i class="fas fa-tools me-2"></i> Maintenance
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="HRManagement" asp-action="Index">
+                        <i class="fas fa-users me-2"></i> HR Management
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Finance" asp-action="List">
+                        <i class="fas fa-dollar-sign me-2"></i> Finance
+                    </a>
+                </li>
+                <li class="nav-item mb-1">
+                    <a class="nav-link text-white" asp-controller="Reports" asp-action="List">
+                        <i class="fas fa-chart-bar me-2"></i> Reports
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main content area -->
+        <div class="flex-grow-1 main-bg">
+            <main class="p-4">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

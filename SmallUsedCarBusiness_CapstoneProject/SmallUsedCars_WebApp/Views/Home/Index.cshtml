@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    /* Subtle gradient background for the main content */
+    .dashboard-bg {
+        background: linear-gradient(to bottom right, #ffffff, #f0f0f0);
+        border-radius: 8px;
+        padding: 3rem;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h1.dashboard-title {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #333;
+        text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        margin-bottom: 1rem;
+    }
+
+    p.dashboard-subtitle {
+        font-size: 1.2rem;
+        color: #555;
+    }
+
+    .dashboard-cards .card {
+        transition: box-shadow 0.3s ease;
+        border: none;
+        border-radius: 8px;
+    }
+
+        .dashboard-cards .card:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+</style>
+
+<div class="container mt-5">
+    <div class="dashboard-bg">
+        <h1 class="dashboard-title">Welcome to the Used Car Dealership Solution</h1>
+        <p class="dashboard-subtitle">Manage vehicle records and employees efficiently.</p>
+    </div>
+</div>
+
+<!-- Dashboard Cards -->
+<div class="container mt-4 d-flex flex-column align-items-center justify-content-center" style="min-height: 50vh;">
+    <h2 class="text-center mb-4">Dashboard</h2>
+
+    <div class="row row-cols-1 row-cols-md-4 g-4 dashboard-cards">
+        @foreach (var menuItem in new[] {
+        new { Title = "Customer Appointment", Controller = "Appointment", Action = "List" },
+        new { Title = "Vehicle Transaction", Controller = "VehicleTransaction", Action = "Index" },
+        new { Title = "Customer Notification", Controller = "CustomerNotification", Action = "NotificationForm" },
+        new { Title = "HR Management", Controller = "HRManagement", Action = "Index" },
+        new { Title = "Inventory", Controller = "Inventory", Action = "List" },
+        new { Title = "Maintenance & Service", Controller = "Maintenance", Action = "List" },
+        new { Title = "Financial Management", Controller = "Finance", Action = "List" },
+        new { Title = "Reports", Controller = "Reports", Action = "List" }
+        })
+
+        {
+            <div class="col">
+                <div class="card h-100 shadow">
+                    <div class="card-body d-flex flex-column justify-content-center">
+                        <h5 class="card-title mb-3">@menuItem.Title</h5>
+                        <a asp-controller="@menuItem.Controller" asp-action="@menuItem.Action"
+                           class="btn btn-primary mt-auto align-self-center">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<footer class="mt-5 text-center">
+    <p>&copy; 2025 Vehicle Management System. All Rights Reserved.</p>
+</footer>

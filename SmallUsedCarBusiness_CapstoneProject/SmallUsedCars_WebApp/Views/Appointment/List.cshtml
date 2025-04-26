@@ -1,0 +1,39 @@
+﻿@model List<SmallUsedCars_WebApp.ViewModels.AppointmentViewModel>
+
+
+<h2>Customer Appointments</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer First Name</th>
+            <th>Customer Last Name</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Vehicle</th>
+            <th>Employee</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var appt in Model)
+        {
+            <tr>
+                <td>@appt.FirstName</td>
+                <td>@appt.LastName</td>
+                <td>@appt.AppointmentDate.ToShortDateString()</td>
+                <td>@appt.AppointmentType</td>
+                <td>@appt.Description</td>
+                <td>@appt.VehicleModel (@appt.VehiclePlateNumber)</td>
+                <td>@appt.EmployeeName</td>
+                <td>
+                    <a asp-action="Update" asp-route-id="@appt.AppointmentId" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@appt.AppointmentId" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Create New Appointment</a>

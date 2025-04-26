@@ -1,0 +1,66 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/* Top bar background */
+.topbar-bg {
+    background-color: #37474F; /* Dark grayish color */
+}
+
+/* Brand logo smaller so it doesn't overlap */
+.brand-logo {
+    max-height: 50px;
+}
+
+/* Sidebar gradient */
+.sidebar {
+    background: linear-gradient(135deg, #5f72be 0%, #9b23ea 100%);
+    min-height: calc(100vh - 56px); /* subtract top bar height */
+    width: 240px;
+}
+
+    /* White text for sidebar links */
+    .sidebar .nav-link {
+        color: #ffffff;
+        margin: 3px 0;
+        border-radius: 4px;
+        transition: background-color 0.2s ease;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            text-decoration: none;
+        }
+
+.hr-light {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Main background */
+.main-bg {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+/* Body defaults */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eaeaea;
+}

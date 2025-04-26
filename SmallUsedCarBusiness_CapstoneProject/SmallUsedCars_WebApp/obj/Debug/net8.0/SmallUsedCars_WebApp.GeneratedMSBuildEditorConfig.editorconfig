@@ -1,0 +1,147 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SmallUsedCars_WebApp
+build_property.RootNamespace = SmallUsedCars_WebApp
+build_property.ProjectDir = E:\1Conestoga\Sem 4\Application Project\Final Project\FinalCopy\SmallUsedCars_WebApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\1Conestoga\Sem 4\Application Project\Final Project\FinalCopy\SmallUsedCars_WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Appointment/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Appointment/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Appointment/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Appointment/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/CustomerNotification/NotificationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJOb3RpZmljYXRpb25cTm90aWZpY2F0aW9uRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/CustomerNotification/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJOb3RpZmljYXRpb25cU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Customer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Finance/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Finance/Payroll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluYW5jZVxQYXlyb2xsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/HRManagement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNYW5hZ2VtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/HRManagement/LeaveRequests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNYW5hZ2VtZW50XExlYXZlUmVxdWVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/HRManagement/PromoteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNYW5hZ2VtZW50XFByb21vdGVFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/HRManagement/RequestLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNYW5hZ2VtZW50XFJlcXVlc3RMZWF2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Inventory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Inventory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Inventory/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Maintenance/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbnRlbmFuY2VcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Reports/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Reports/Ranking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xSYW5raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/VehicleTransaction/CustomerBuyVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVRyYW5zYWN0aW9uXEN1c3RvbWVyQnV5VmVoaWNsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/VehicleTransaction/EnterTransactionInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVRyYW5zYWN0aW9uXEVudGVyVHJhbnNhY3Rpb25JbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/VehicleTransaction/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVRyYW5zYWN0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/VehicleTransaction/SellVehicleToDealership.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVRyYW5zYWN0aW9uXFNlbGxWZWhpY2xlVG9EZWFsZXJzaGlwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/1Conestoga/Sem 4/Application Project/Final Project/FinalCopy/SmallUsedCars_WebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yi5rgcmzdv

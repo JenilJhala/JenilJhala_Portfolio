@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "SmallUsedCars_WebApp.Controllers.HRController",
+    "Method": "ApproveLeaveRequest",
+    "RelativePath": "api/hr/approve-leave/{hrId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hrId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "managerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmallUsedCars_WebApp.Controllers.HRController",
+    "Method": "DenyLeaveRequest",
+    "RelativePath": "api/hr/deny-leave/{hrId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hrId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "managerId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmallUsedCars_WebApp.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/notifications/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmallUsedCars_WebApp.Controllers.CustomerController",
+    "Method": "GetAllCustomers",
+    "RelativePath": "api/notifications/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

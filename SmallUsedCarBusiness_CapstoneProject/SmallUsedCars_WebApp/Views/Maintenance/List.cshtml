@@ -1,0 +1,40 @@
+﻿@model List<SmallUsedCars_WebApp.Models.VehicleMaintenanceViewModel>
+
+<h2>Vehicle Maintenance Records</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Vehicle</th>
+            <th>Customer Email</th>
+            <th>Maintenance Type</th>
+            <th>Last Service Date</th>
+            <th>Cost</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var record in Model)
+        {
+            <tr>
+                <td>@record.VehicleModel</td>
+                <td>@record.CustomerEmail</td>
+                <td>@record.MaintenanceType</td>
+                <td>@record.LastServiceDate.ToString("yyyy-MM-dd")</td>
+                <td>@record.Cost</td>
+                <td>@record.MaintenanceDescription</td>
+                <td>
+                    @if (record.IsDueForReplacement)
+                    {
+                        <button class="btn btn-warning"
+                                onclick="location.href='@Url.Action("NotificationForm", "CustomerNotification", new { customerId = record.CustomerId, defaultMessage = record.MaintenanceDescription })'">
+                            Send Notification
+                        </button>
+                    }
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>

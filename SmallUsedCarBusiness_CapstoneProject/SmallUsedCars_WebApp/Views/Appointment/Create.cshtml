@@ -1,0 +1,163 @@
+﻿@model SmallUsedCars_WebApp.ViewModels.AppointmentViewModel
+
+<h2>Create Appointment</h2>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <strong>Please fix the following errors:</strong>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Create" method="post">
+    <!-- Existing Customer Dropdown -->
+    <div class="mb-3">
+        <label class="form-label">Select Existing Customer</label>
+        <select asp-for="CustomerId" class="form-control" id="CustomerId">
+            <option value="">-- Select a Customer --</option>
+            @foreach (var customer in Model.Customers)
+            {
+                <option value="@customer.CustomerId">@customer.FirstName @customer.LastName</option>
+            }
+        </select>
+    </div>
+
+    <!-- New Customer Checkbox -->
+    <div class="mb-3">
+        <input type="checkbox" id="newCustomerCheckbox" asp-for="IsNewCustomer" /> New Customer?
+    </div>
+
+    <!-- New Customer Fields -->
+
+    <div id="newCustomerFields" class="d-none">
+        <input type="hidden" id="hiddenCustomerId" asp-for="CustomerId" value="0" />
+
+            <div class="mb-3">
+            <label class="form-label">First Name</label>
+            <input asp-for="FirstName" class="form-control" id="FirstNameField" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Last Name</label>
+            <input asp-for="LastName" class="form-control" id="LastNameField" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" type="email" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Province</label>
+            <input asp-for="Province" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">City</label>
+            <input asp-for="City" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Street</label>
+            <input asp-for="Street" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Unit Number</label>
+            <input asp-for="UnitNumber" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Postal Code</label>
+            <input asp-for="PostalCode" class="form-control" />
+        </div>
+    </div>
+
+    <!-- Vehicle 선택 (선택사항) -->
+    <div class="mb-3">
+        <label class="form-label">Vehicle (Optional)</label>
+        <select asp-for="VehicleId" class="form-control">
+            <option value="">-- No Vehicle Selected --</option>
+            @foreach (var vehicle in Model.Vehicles)
+            {
+                <option value="@vehicle.VehicleId">@vehicle.Model (@vehicle.Year)</option>
+            }
+        </select>
+    </div>
+
+    <!-- Appointment Details -->
+    <div class="mb-3">
+        <label class="form-label">Appointment Date</label>
+        <input asp-for="AppointmentDate" type="date" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Type</label>
+        <input asp-for="AppointmentType" class="form-control" />
+    </div>
+
+    <!-- Status 드롭다운 -->
+    <div class="mb-3">
+        <label class="form-label">Status</label>
+        <select asp-for="Status" class="form-control">
+            <option value="">-- Select Status --</option>
+            <option value="Scheduled">Scheduled</option>
+            <option value="Confirmed">Confirmed</option>
+            <option value="Completed">Completed</option>
+            <option value="Cancelled">Cancelled</option>
+        </select>
+    </div>
+
+    <!-- 직원 선택 -->
+    <div class="mb-3">
+        <label class="form-label">Employee</label>
+        <select asp-for="EmployeeId" class="form-control">
+            <option value="">-- Select an Employee --</option>
+            @foreach (var employee in Model.Employees)
+            {
+                <option value="@employee.Id" selected="@(employee.Id == Model.EmployeeId ? "selected" : null)">
+                    @employee.EmployeeName
+                </option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Create</button>
+</form>
+
+<script>
+    document.getElementById("newCustomerCheckbox").addEventListener("change", function () {
+        let newCustomerFields = document.getElementById("newCustomerFields");
+        let existingCustomerDropdown = document.getElementById("CustomerId");
+        let hiddenCustomerId = document.getElementById("hiddenCustomerId");
+
+        newCustomerFields.classList.toggle("d-none", !this.checked);
+
+        if (this.checked) {
+            existingCustomerDropdown.value = "";
+            existingCustomerDropdown.setAttribute("disabled", "disabled");
+            hiddenCustomerId.value = "0";
+        } else {
+            existingCustomerDropdown.removeAttribute("disabled");
+            hiddenCustomerId.value = "";
+        }
+    });
+
+    // FirstName과 LastName 입력 값이 변경될 때 CustomerName 자동 생성
+    document.getElementById("FirstNameField").addEventListener("input", updateCustomerName);
+    document.getElementById("LastNameField").addEventListener("input", updateCustomerName);
+
+    function updateCustomerName() {
+        let firstName = document.getElementById("FirstNameField").value.trim();
+        let lastName = document.getElementById("LastNameField").value.trim();
+        document.getElementById("CustomerNameField").value = firstName + " " + lastName;
+    }
+</script>

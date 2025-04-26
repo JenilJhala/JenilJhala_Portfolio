@@ -1,0 +1,51 @@
+﻿@model List<SmallUsedCars_WebApp.Models.LeaveRequestViewModel>
+
+@{
+    ViewData["Title"] = "Leave Requests";
+}
+
+<h2>Leave Requests</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Employee Name</th>
+            <th>Leave Dates</th>
+            <th>Type</th>
+            <th>Reason</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lr in Model)
+        {
+            <tr>
+                <td>@lr.EmployeeName</td>
+                <td>@lr.LeaveStartDate.ToShortDateString() - @lr.LeaveEndDate.ToShortDateString()</td>
+                <td>@lr.LeaveType</td>
+                <td>@lr.Reason</td>
+                <td>@lr.LeaveStatus</td>
+                <td>
+                    <form asp-action="ApproveLeave" method="post" class="d-inline">
+                        <input type="hidden" name="hrId" value="@lr.HRId" />
+                        <button type="submit" class="btn btn-success btn-sm">Approve</button>
+                    </form>
+                    <form asp-action="DenyLeave" method="post" class="d-inline">
+                        <input type="hidden" name="hrId" value="@lr.HRId" />
+                        <button type="submit" class="btn btn-danger btn-sm">Deny</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,78 @@
+﻿@model SmallUsedCars_WebApp.Models.PayrollListViewModel
+
+<h2 class="mb-4">Payroll Entry</h2>
+
+<form asp-action="Create" method="post">
+    <table class="table table-bordered">
+        <thead class="table-light">
+            <tr>
+                <th>Employee</th>
+                <th>Base Salary</th>
+                <th>Sale Price</th>
+                <th>Tax Rate (%)</th>
+                <th>Commission</th>
+                <th>Total Before Tax</th>
+                <th>Tax Amount</th>
+                <th>Total Pay</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.PayrollEntries.Count; i++)
+            {
+                <tr>
+                    <td>
+                        @Model.PayrollEntries[i].EmployeeName
+                        <input type="hidden" name="PayrollEntries[@i].EmployeeId" value="@Model.PayrollEntries[i].EmployeeId" />
+                        <input type="hidden" name="PayrollEntries[@i].EmployeeName" value="@Model.PayrollEntries[i].EmployeeName" />
+                    </td>
+                    <td>
+                        <input type="number" step="0.01" class="form-control"
+                               name="PayrollEntries[@i].BaseSalary"
+                               value="@Model.PayrollEntries[i].BaseSalary" />
+                    </td>
+                    <td>
+                        <input type="number" step="0.01" class="form-control"
+                               name="PayrollEntries[@i].SalePrice"
+                               value="@Model.PayrollEntries[i].SalePrice" />
+                    </td>
+                    <td>
+                        <input type="number" step="0.01" class="form-control"
+                               name="PayrollEntries[@i].TaxRate"
+                               value="@Model.PayrollEntries[i].TaxRate" />
+                    </td>
+                    <td id="commission-@i">$0.00</td>
+                    <td id="totalBeforeTax-@i">$0.00</td>
+                    <td id="taxAmount-@i">$0.00</td>
+                    <td id="totalPay-@i">$0.00</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Save Payroll</button>
+</form>
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('input[name^="PayrollEntries"]').forEach(input => {
+            input.addEventListener('input', function () {
+                let name = this.name; // e.g. PayrollEntries[0].BaseSalary
+                let rowIndex = name.match(/\d+/)[0];
+
+                let baseSalary = parseFloat(document.querySelector(`[name="PayrollEntries[${rowIndex}].BaseSalary"]`).value) || 0;
+                let salePrice = parseFloat(document.querySelector(`[name="PayrollEntries[${rowIndex}].SalePrice"]`).value) || 0;
+                let taxRate = parseFloat(document.querySelector(`[name="PayrollEntries[${rowIndex}].TaxRate"]`).value) || 0;
+
+                let commission = salePrice * 0.05;
+                let totalBeforeTax = baseSalary + commission;
+                let taxAmount = totalBeforeTax * taxRate;
+                let totalPay = totalBeforeTax - taxAmount;
+
+                document.getElementById(`commission-${rowIndex}`).innerText = `$${commission.toFixed(2)}`;
+                document.getElementById(`totalBeforeTax-${rowIndex}`).innerText = `$${totalBeforeTax.toFixed(2)}`;
+                document.getElementById(`taxAmount-${rowIndex}`).innerText = `$${taxAmount.toFixed(2)}`;
+                document.getElementById(`totalPay-${rowIndex}`).innerText = `$${totalPay.toFixed(2)}`;
+            });
+        });
+    </script>
+}

@@ -1,0 +1,37 @@
+﻿@model SmallUsedCars_WebApp.Entities.Vehicle
+
+<h2>Delete Vehicle</h2>
+
+<div class="alert alert-warning">
+    <p>Are you sure you want to delete the following vehicle?</p>
+</div>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Model</th>
+        <td>@Model.Model</td>
+    </tr>
+    <tr>
+        <th>Manufacturer</th>
+        <td>@Model.Manufacturer</td>
+    </tr>
+    <tr>
+        <th>Plate Number</th>
+        <td>@Model.PlateNumber</td>
+    </tr>
+    <tr>
+        <th>Status</th>
+        <td>@Model.Status</td>
+    </tr>
+    <tr>
+        <th>Market Value</th>
+        <td>@Model.MarketValue</td>
+    </tr>
+</table>
+
+<form asp-action="DeleteConfirmed" asp-route-id="@Model.VehicleId" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="List" class="btn btn-secondary">Cancel</a>
+</form>
+
+<!-- delete 버튼누르면 보여지는 삭제확인 페이지-->

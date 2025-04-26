@@ -1,0 +1,36 @@
+﻿@model SmallUsedCars_WebApp.Models.PromoteEmployeeViewModel
+
+@{
+    ViewData["Title"] = "Promote Employee";
+}
+
+<h2>Promote @Model.EmployeeName</h2>
+
+@if (!Model.EligibleForPromotion)
+{
+    <div class="alert alert-warning">
+        This employee is not eligible for promotion at this time.
+    </div>
+}
+
+<form asp-action="PromoteEmployee" method="post">
+    <input type="hidden" asp-for="EmployeeId" />
+
+    <div class="mb-3">
+        <label>Current Position</label>
+        <input class="form-control" value="@Model.CurrentPosition" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NewPosition" class="form-label"></label>
+        <input asp-for="NewPosition" class="form-control" />
+        <span asp-validation-for="NewPosition" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success" @(Model.EligibleForPromotion ? "" : "disabled")>Promote</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,12 @@
+﻿@model List<SmallUsedCars_WebApp.Entities.Customer>
+
+<h2>Customer Notifications</h2>
+
+<ul class="list-group">
+    @foreach (var customer in Model)
+    {
+        <li class="list-group-item">
+            @customer.FirstName @customer.LastName - @customer.PhoneNumber
+        </li>
+    }
+</ul>
