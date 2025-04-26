@@ -8,8 +8,6 @@ Welcome to my personal portfolio! This repository showcases the projects I have 
    - [Capstone Project: Small Used Car Dealership Management System](#capstone-project-small-used-car-dealership-management-system)
    - [Bowling Game](#bowling-game)
 3. [Technologies Used](#technologies-used)
-4. [How to Run My Projects](#how-to-run-my-projects)
-5. [Contact Information](#contact-information)
 
 ## About Me
 
@@ -53,9 +51,3 @@ I am currently pursuing a **Diploma in Computer Programming** from **Conestoga C
   - **Bootstrap** for responsive design (optional, if you use it)
 - **Other Tools**: **Git**, **GitHub**, **Visual Studio**, **Postman** for API testing, **NUnit** for unit testing.
 
-
-### Running the Projects
-For each project:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/JenilJhala-Portfolio.git
